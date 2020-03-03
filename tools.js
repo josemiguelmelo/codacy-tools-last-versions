@@ -1,0 +1,57 @@
+module.exports = {
+    exceptions: [
+        {
+            name: 'codacy-tslint',
+            tag: '2.0.112'
+        },
+        {
+            name: 'codacy-pmd',
+            tag: '3.1.0'
+        }
+    ],
+    tools: [
+        'codacy-coffeelint',
+        'codacy-checkstyle',
+        'codacy-eslint',
+        'codacy-pmdjava',
+        'codacy-pmd',
+        'codacy-jshint',
+        'codacy-phpmd',
+        'codacy-pylint',
+        'codacy-pylint-python3',
+        'codacy-brakeman',
+        'codacy-scalastyle',
+        'codacy-rubocop',
+        'codacy-scalameta-pro',
+        'codacy-find-sec-bugs',
+        'codacy-findbugs',
+        'codacy-bandit',
+        'codacy-tailor',
+        'codacy-cppcheck',
+        'codacy-shellcheck',
+        'codacy-codesniffer',
+        'codacy-csslint',
+        'codacy-tslint',
+        'codacy-hadolint',
+        'codacy-sqlint',
+        'codacy-jackson-linter',
+        'codacy-prospector',
+        'codacy-bundler-audit',
+        'codacy-stylelint',
+        'codacy-sonar-csharp',
+        'codacy-sonar-visual-basic',
+        'codacy-detekt',
+        'codacy-staticcheck',
+        'codacy-credo',
+        'codacy-flawfinder',
+        'codacy-remark-lint',
+        'codacy-swiftlint',
+        'codacy-psscriptanalyzer',
+        'codacy-ameba',
+        'codacy-spotbugs',
+        'codacy-tsqllint',
+        'codacy-codenarc',
+        'codacy-gorevive',
+        'codacy-example-tool',
+    ]
+}
