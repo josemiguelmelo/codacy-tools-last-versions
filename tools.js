@@ -23,8 +23,6 @@ module.exports = {
         'codacy-scalastyle',
         'codacy-rubocop',
         'codacy-scalameta-pro',
-        'codacy-find-sec-bugs',
-        'codacy-findbugs',
         'codacy-bandit',
         'codacy-tailor',
         'codacy-cppcheck',
@@ -53,5 +51,6 @@ module.exports = {
         'codacy-codenarc',
         'codacy-gorevive',
         'codacy-example-tool',
+        'codacy-clang-tidy',
     ]
 }
