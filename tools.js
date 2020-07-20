@@ -52,5 +52,6 @@ module.exports = {
         'codacy-gorevive',
         'codacy-example-tool',
         'codacy-clang-tidy',
+        'codacy-gosec',
     ]
 }
