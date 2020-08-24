@@ -1,12 +1,8 @@
 module.exports = {
     exceptions: [
         {
-            name: 'codacy-tslint',
-            tag: '2.0.112'
-        },
-        {
-            name: 'codacy-pmd',
-            tag: '3.1.0'
+            name: 'codacy-pmdjava',
+            tag: '2.0.0-pmdlegacy.57fdbf2'
         }
     ],
     tools: [
