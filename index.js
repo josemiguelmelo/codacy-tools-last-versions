@@ -64,7 +64,7 @@ const run = async (outputFile) => {
     initAxios(process.env.GITHUB_TOKEN);
     const tags = await fetchTags(tools);
     const resultString = tags.map(t => toolInfoToString(t)).join('\n');
-    writeToFile(outputFile, resultString)
+    writeToFile(outputFile, resultString + '\n');
 }
 
 run("tool-tags.txt");
