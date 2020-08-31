@@ -1,12 +1,8 @@
 module.exports = {
     exceptions: [
         {
-            name: 'codacy-tslint',
-            tag: '2.0.112'
-        },
-        {
-            name: 'codacy-pmd',
-            tag: '3.1.0'
+            name: 'codacy-pmdjava',
+            tag: '2.0.0-pmdlegacy.57fdbf2'
         }
     ],
     tools: [
@@ -23,8 +19,6 @@ module.exports = {
         'codacy-scalastyle',
         'codacy-rubocop',
         'codacy-scalameta-pro',
-        'codacy-find-sec-bugs',
-        'codacy-findbugs',
         'codacy-bandit',
         'codacy-tailor',
         'codacy-cppcheck',
@@ -53,5 +47,7 @@ module.exports = {
         'codacy-codenarc',
         'codacy-gorevive',
         'codacy-example-tool',
+        'codacy-clang-tidy',
+        'codacy-gosec',
     ]
 }
